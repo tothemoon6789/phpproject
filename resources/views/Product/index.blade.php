@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    XIN CHAO, PHP FILE DA DUOC UPLOAD
-    <a href="/login">login</a>
+    Day la trang san pham
 </body>
 </html>

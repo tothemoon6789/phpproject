@@ -7,7 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    XIN CHAO, PHP FILE DA DUOC UPLOAD
-    <a href="/login">login</a>
+    <form action="/getsomething" method="post">
+    @csrf
+        <input type="text" name="hoten">
+        <input type="submit">
+    </form>
 </body>
 </html>

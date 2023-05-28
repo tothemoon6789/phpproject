@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+use App\Http\Controllers\Home\MainHome;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+
+Route::get('/',function(){
+    return 'TRANG CHU';
 });
+Route::get('/trangchu',[MainHome::class,'trangChu']);
+Route::get('/sanpham',[MainHome::class,'sanPham']);
